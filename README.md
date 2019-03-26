@@ -1,11 +1,11 @@
 # armbian-hass
 This is customization script for Home Assistant installation on Armbian distro.
-Tested on OrangePI 2 and OrangePI PC.
+Tested on NanoPi M4.
 
 # Installation
 - Execute commands:
    ```shell
-   wget -O /tmp/customize-image-hass.sh https://raw.githubusercontent.com/rufik/armbian-hass/master/customize-image-hass.sh
+   wget -O /tmp/customize-image-hass.sh https://raw.githubusercontent.com/joabakk/armbian-hass-aarch64/master/customize-image-hass.sh
    chmod ug+x /tmp/customize-image-hass.sh
    sudo /tmp/customize-image-hass.sh
    ```
